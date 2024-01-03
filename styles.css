@@ -55,3 +55,16 @@
   .nav-list{
     font-weight: 700;
   }
+  #quotes{
+    height: 400px;
+  }
+  #quotes-img-1, #quotes-img-2, #quote-text{
+    display: inline-block;
+  }
+  #quotes-img-1, #quotes-img-2{
+    height: 300px;
+    width: 300px;
+  }
+  #quotes-img-1{
+    float: left;
+  }
