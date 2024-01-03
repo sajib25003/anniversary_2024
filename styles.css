@@ -1,0 +1,20 @@
+* {
+    text-align: center;
+    margin: 0;
+}
+
+.header{
+    height: 300px;
+    /* background-color: aquamarine; */
+    background-image: url("images/Hand-2.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.title-heading{
+    font-family: 'Rowdies', sans-serif;
+    font-weight: 900;
+    color: #FF9494;
+    font-size: 4rem;
+    background-color: #FFF5E4;
+    padding: 3% 0;
+}
