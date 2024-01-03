@@ -18,3 +18,11 @@
     background-color: #FFF5E4;
     padding: 3% 0;
 }
+#header-navbar{
+    margin-bottom: 0 !important;
+    padding-bottom: 10px0 !important;
+    background-color: #FFF5E4;
+}
+.title{
+    font-family: 'Pacifico', cursive;
+}
