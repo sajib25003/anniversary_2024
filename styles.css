@@ -46,7 +46,23 @@
       background-position: 0% 50%;
     }
   }
-
+  .gradient-body {
+    background: linear-gradient(300deg, #FFF5E4, #00bfff4b, #FF9494);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
   .navigation-items{
     display: flex;
     justify-content: flex-end;
@@ -55,16 +71,18 @@
   .nav-list{
     font-weight: 700;
   }
-  #quotes{
-    height: 400px;
-  }
-  #quotes-img-1, #quotes-img-2, #quote-text{
-    display: inline-block;
-  }
-  #quotes-img-1, #quotes-img-2{
-    height: 300px;
-    width: 300px;
-  }
-  #quotes-img-1{
-    float: left;
-  }
+.carousel-image{
+    max-height: 600px;
+}
+@media (max-width:600px){
+    .carousel-image{
+        max-height: 400px;
+    }
+}
+button{
+    color: #33186B;
+}
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  filter: invert(1);
+}
