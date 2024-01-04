@@ -98,3 +98,9 @@ button{
     font-family: 'Rowdies', sans-serif;
     color: #FF004D;
 }
+.text-carousel{
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    background-color: #FF9494;
+}
