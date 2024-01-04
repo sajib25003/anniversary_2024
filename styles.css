@@ -86,3 +86,15 @@ button{
 .carousel-control-prev-icon {
   filter: invert(1);
 }
+
+.card, .card-img{
+    width: 250px;
+    margin: 2% !important;
+}
+.container{
+    padding: 0 !important;
+}
+.life-event-text{
+    font-family: 'Rowdies', sans-serif;
+    color: #FF004D;
+}
