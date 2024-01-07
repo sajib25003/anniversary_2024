@@ -1,106 +1,158 @@
 * {
-    text-align: center;
-    margin: 0;
+  text-align: center;
+  margin: 0;
 }
 
-.header{
-    height: 650px;;
-    /* background-color: aquamarine; */
-    background-image: url("images/Hand-2.jpg");
-    background-size: cover;
-    background-position: center;
+.header {
+  height: 650px;
+  ;
+  /* background-color: aquamarine; */
+  background-image: url("images/Hand-2.jpg");
+  background-size: cover;
+  background-position: center;
 }
-.title-heading{
-    font-family: 'Rowdies', sans-serif;
-    font-weight: 900;
-    color: #33186B;
-    font-size: 4rem;
-    background-color: #FFF5E4;
-    padding: 3% 0;
+
+.title-heading {
+  font-family: 'Rowdies', sans-serif;
+  font-weight: 900;
+  color: #33186B;
+  font-size: 4rem;
+  background-color: #FFF5E4;
+  padding: 3% 0;
 }
-#header-navbar{
-    margin-bottom: 0 !important;
-    padding-bottom: 10px0 !important;
-    background-color: #FFF5E4;
+
+#header-navbar {
+  margin-bottom: 0 !important;
+  padding-bottom: 10px0 !important;
+  background-color: #FFF5E4;
 }
-.title{
-    font-family: 'Pacifico', cursive;
-    color: #33186B;
-    font-weight: 400;
+
+.title {
+  font-family: 'Pacifico', cursive;
+  color: #33186B;
+  font-weight: 400;
 }
 
 .gradient-background {
-    background: linear-gradient(300deg, #FF9494, #FFF5E4, #00bfff);
-    background-size: 180% 180%;
-    animation: gradient-animation 18s ease infinite;
-  }
-  
-  @keyframes gradient-animation {
-    0% {
-      background-position: 0% 50%;
-    }
-    50% {
-      background-position: 100% 50%;
-    }
-    100% {
-      background-position: 0% 50%;
-    }
-  }
-  .gradient-body {
-    background: linear-gradient(300deg, #FFF5E4, #00bfff4b, #FF9494);
-    background-size: 180% 180%;
-    animation: gradient-animation 18s ease infinite;
-  }
-  
-  @keyframes gradient-animation {
-    0% {
-      background-position: 0% 50%;
-    }
-    50% {
-      background-position: 100% 50%;
-    }
-    100% {
-      background-position: 0% 50%;
-    }
-  }
-  .navigation-items{
-    display: flex;
-    justify-content: flex-end;
+  background: linear-gradient(300deg, #FF9494, #FFF5E4, #00bfff);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
   }
 
-  .nav-list{
-    font-weight: 700;
+  50% {
+    background-position: 100% 50%;
   }
-.carousel-image{
-    max-height: 600px;
+
+  100% {
+    background-position: 0% 50%;
+  }
 }
-@media (max-width:600px){
-    .carousel-image{
-        max-height: 400px;
-    }
+
+.gradient-body {
+  background: linear-gradient(300deg, #FFF5E4, #00bfff4b, #FF9494);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
 }
-button{
-    color: #33186B;
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
 }
+
+.navigation-items {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav-list {
+  font-weight: 700;
+}
+
+.carousel-image {
+  max-height: 600px;
+}
+
+@media (max-width:600px) {
+  .carousel-image {
+    max-height: 400px;
+  }
+}
+
+button {
+  color: #33186B;
+}
+
 .carousel-control-next-icon,
 .carousel-control-prev-icon {
   filter: invert(1);
 }
 
-.card, .card-img{
-    width: 250px;
-    margin: 2% !important;
+.card,
+.card-img {
+  width: 250px;
+  margin: 2% !important;
 }
-.container{
-    padding: 0 !important;
+
+.container {
+  padding: 0 !important;
 }
-.life-event-text{
-    font-family: 'Rowdies', sans-serif;
-    color: #FF004D;
+
+.life-event-text {
+  font-family: 'Rowdies', sans-serif;
+  color: #FF004D;
 }
-.text-carousel{
-    height: 400px;
-    justify-content: center;
-    align-items: center;
-    background-color: #FF9494;
+
+.text-carousel {
+  height: 400px;
+  width: 1200px;
+  justify-content: center;
+  align-items: center;
+  background-color: #FF9494;
+  margin: 50px;
+
+}
+.message-container{
+  display: flex;
+  gap: 2%;
+  margin: 5% 10%;
+
+}
+.messages{
+  text-align: justify;
+  width: 50%;
+}
+.messages h3{
+  color: #525CEB;
+  font-size: 2rem;
+  font-weight: 900;
+}
+.messages h5{
+  color: #39A7FF;
+  padding-bottom: 25px;
+}
+.messages p{
+  color: #192655;
+  font-size: 1rem;
+  font-weight: 700;
+}
+.footer-section{
+  padding: 2%;
+  color: white;
+  background-color: #192655;
+  font-size: 15px;
+  font-weight: 400;
 }
